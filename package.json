@@ -1,0 +1,31 @@
+{
+  "name": "pullet",
+  "version": "1.0.0",
+  "description": "Functional Helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha tests/**"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k33g/pullet.git"
+  },
+  "keywords": [
+    "functional",
+    "egg",
+    "computational",
+    "context",
+    "immutable",
+    "functor"
+  ],
+  "author": "k33g",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/k33g/pullet/issues"
+  },
+  "homepage": "https://github.com/k33g/pullet#readme",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
+}
