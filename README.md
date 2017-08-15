@@ -2,9 +2,17 @@
 
 Pullet is an eggs spawner (for ES2015 and Node)
 
+## Install
+
+```shell
+npm install git+https://git@github.com/k33g/pullet.git --save
+```
+
 ## What is an Egg?
 
 You can see an Egg (of Pullet.js) as Immutable Wrapper of a Unique Value (Some would say it's a computational context 😉).
+
+Special tribute to [Damien Gouyette](https://twitter.com/cestpasdur) about the choice of the word **Egg**
 
 Let's look at an example:
 
