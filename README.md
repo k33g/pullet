@@ -17,7 +17,8 @@ Special tribute to [Damien Gouyette](https://twitter.com/cestpasdur) about the c
 Let's look at an example:
 
 ```javascript
-const Egg = require('./index').Egg
+//const Egg = require('./index').Egg
+const Egg = require('pullet')
 
 let Bob = new Egg("Bob Morane")
 // or
@@ -71,7 +72,8 @@ result == "24 is a bad value"
 ## You can do a lot of things with Puppet's Eggs
 
 ```javascript
-const Egg = require('./index').Egg
+//const Egg = require('./index').Egg
+const Egg = require('pullet')
 
 class Functor extends Egg {
   map (fn) {
@@ -112,9 +114,10 @@ console.log(
 ## when() is very convenient, so we provide a standalone version:
 
 ```javascript
-const Egg = require('./index').Egg
-const when  = require('./index').when
-
+//const Egg = require('./index').Egg
+//const when  = require('./index').when
+const Egg = require('pullet')
+const when = Egg.when
 
 class Toon extends Egg {}
 class TinyToon extends Toon {}
