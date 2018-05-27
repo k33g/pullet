@@ -18,7 +18,7 @@ Let's look at an example:
 
 ```javascript
 //const Egg = require('./index').Egg
-const Egg = require('pullet')
+const Egg = require('pullet').Egg
 
 let Bob = new Egg("Bob Morane")
 // or
@@ -73,7 +73,7 @@ result == "24 is a bad value"
 
 ```javascript
 //const Egg = require('./index').Egg
-const Egg = require('pullet')
+const Egg = require('pullet').Egg
 
 class Functor extends Egg {
   map (fn) {
@@ -116,7 +116,7 @@ console.log(
 ```javascript
 //const Egg = require('./index').Egg
 //const when  = require('./index').when
-const Egg = require('pullet')
+const Egg = require('pullet').Egg
 const when = Egg.when
 
 class Toon extends Egg {}
